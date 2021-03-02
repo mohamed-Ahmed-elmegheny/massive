@@ -143,7 +143,7 @@ class RegistrationScreen extends StatelessWidget {
                     FlatButton(
                       onPressed: ()
                       {
-                        Navigator.pushNamed(context, LoginScreen.idScreen);
+                        Navigator.pushReplacementNamed(context, LoginScreen.idScreen);
                       },
                       child: Text("Already have an Account?Login Here."),
                     ),
