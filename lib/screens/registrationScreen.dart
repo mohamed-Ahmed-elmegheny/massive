@@ -135,6 +135,7 @@ class RegistrationScreen extends StatelessWidget {
                           displayTextMessage("Password is not valid", context);
                         } else {
                           Navigator.pushNamed(context, MainScreen.idScreen);
+                          // must have a login screen for hair-cut app
                         }
                       }
                     ),
